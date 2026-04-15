@@ -10,7 +10,7 @@ public class Armazem {
         // preenchendo a matriz dos setores
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
-                setores[i][j] = new Setor("Setor " + i + "-" + j, i, j, 10);
+                setores[i][j] = new Setor("Corredor " + (char) ('A' + i) + " - Prateleira " + (j + 1), i, j, 10);
             }
         }
     }
